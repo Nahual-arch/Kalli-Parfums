@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="apariencia.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+     <header class="luxury-header">
+        <div class="brand-logo">Kalli Parfums</div>
+        <nav class="luxury-nav">
+            <a href="index.html">Inicio</a>
+            <button class="btn-abrir" id="btnAbrir">🛒<span id="contadorCarrito">0</span></button>
+        
+        </nav>
+        </div>
+ </header>
+
+     <div class="containerForm">
+        <form action="">
+            <div class="row">
+                <div class="column">
+                    <h3 class="title">Dirección de Envio</h3>
+                    <div class="input-box">
+                        <span>Nombre Completo :</span>
+                        <input type="text" placeholder="Nombre Apellidos">
+                    </div>
+                    <div class="input-box">
+                        <span>Email :</span>
+                        <input type="email" placeholder="ejemplo@ejemplo.com">
+                    </div>
+                    <div class="input-box">
+                        <span>Dirección :</span>
+                        <input type="text" placeholder="Calle-Número-Colonia">
+                    </div>
+                    <div class="input-box">
+                        <span>Ciudad :</span>
+                        <input type="text" placeholder="Ciudad">
+                    </div>
+
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>Estado :</span>
+                            <input type="text" placeholder="Estado">
+                        </div>
+                        <div class="input-box">
+                            <span>Código Postal :</span>
+                            <input type="number" placeholder="000 000">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3 class="title">Pago</h3>
+                    <div class="input-box">
+                        <span>Tarjetas Aceptadas :</span>
+                        <img src="imagenes/imgcards.png" alt="">
+                    </div>
+                    <div class="input-box">
+                        <span>Nombre de la Tarjeta :</span>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="input-box">
+                        <span>Número de Tarjeta de Crédito :</span>
+                        <input type="number" placeholder="0000 0000 0000 0000">
+                    </div>
+                    <div class="input-box">
+                        <span>Mes de Vencimiento :</span>
+                        <input type="text" placeholder="Mes">
+                    </div>
+                
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>Vencimiento:</span>
+                            <input type="number" placeholder="Año">
+                        </div>
+                        <div class="input-box">
+                            <span>CVV :</span>
+                            <input type="number" placeholder="000">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
